@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ragistration</title>
+    <style>
+        table{
+            background-color:rgb(83, 212, 212);
+        }
+        td{
+            color: darkblue;
+        }
+        .red{
+            color: brown;
+        }
+        .sub{
+            background-color:cornflowerblue;
+            color: azure;
+        }
+    </style>
+</head>
+<body>
+    <table align="center" width="50%" border="0" cellspacing="5" >
+        <form align="center" action="action.php">
+    <tr  align="center">
+        <td>Individual Registration</td>
+    </tr>
+    <tr>
+        <td></td>
+    </tr>       
+    <tr>
+        <td></td>
+    </tr>
+    <tr>
+        <td  class="red">User Particulars</td>
+    </tr>
+    <tr align="left">
+        <td align="center"><label for="login">Login ID</label>
+        <input type="email" name="email" id="login" placeholder="ID here" >
+        </td>
+    </tr>
+    <tr align="center">
+        <td><label for="password">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Password</label>
+        <input type="password" name="pass" id="password" placeholder="password here">
+        </td>
+    </tr>
+    <tr align="center">
+        <td> <label for="confirf">Confirm Password </label>
+            <input type="password" name="pass" id="confirf" placeholder="confirmation">
+        </td>
+    </tr>
+    <tr>
+        <td></td>
+    </tr>
+    <tr>
+        <td class="red" colspan="2">personal Particulars</td>
+    </tr>
+    <tr>
+        <td></td>
+    </tr>
+    <tr >
+        <td align="center"><label for="101">salutation</label>
+            <select name="salutation" id="101">
+            <option value="salutation" >vadnagar</option>
+            <option value="salutation" >visnagar</option>
+            <option value="salutation" >valsad</option>
+            <option value="salutation" >vapi</option>
+        </select></td>
+        <td align="left"><label for="name">First Name</label>
+        <input type="text" name="name" id="name" placeholder="surname" >
+        </td>
+        <tr>
+            <td></td>
+        </tr>
+        <tr>
+            <td align="center"><label for="middle">Middle Name </label>
+            <input type="text" name="name" id="middle" placeholder="name" >
+            </td>
+            <td align="left"><label for="last">Last Name</label>
+            <input type="text" name="name" id="last" placeholder="last">
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+        </tr>
+        <tr>
+            <td align="center"><label for="status">Resident Status</label>
+            <select name="resident status" id="status" >
+                <option value="india">gujrat</option>
+                <option value="india">Mp</option>
+                <option value="india">Up</option>
+                <option value="india">Rajastan</option>
+            </select>
+            </td>
+            <td align="left"><label for="country">Country</label>
+            <select name="country" id="country">
+                <option value="india">India</option>
+                <option value="india">pakistan</option>
+                <option value="india">Bangladesh</option>
+            </select>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+        </tr>
+            <tr>
+                <td align="center"><label for="email">Email ID</label>
+                    <input type="email" name="email" id="email" ></td>
+                    <td align="left"><label for="number">Mobile Number</label>
+                    <input type="tel" name="mobile" id="number">
+                    </td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="red">Account Particulars</td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td align="center"><label for="account">15 Digit Account no</label>
+                <input type="text" name="account" id="account" >
+                </td>
+                <td align="left"><label for="nick name">Nick Name</label>
+                <input type="text" name="nick" id="nick name">
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td align="center"><label for="fund">Fund Transfer</label>
+                <select name="fund" id="fund">
+                    <option value="gpay">Gpay</option>
+                    <option value="Paytm">Paytm</option>
+                    <option value="Paypal">Paypal</option>
+                    <option value="phonepay">Phonepay</option>
+                </select>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td align="left" colspan="2" class="red">DECLERATION</td>
+            </tr>
+            <tr>
+                <td>i have a read, understood and hereby agree to the terms and conditions in respect of all products and channels.
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td align="center"><input class="sub" type="submit" value="submit" ></td>
+                <td align="left"><input type="reset" value="Reset" style="color:white ; background-color: cornflowerblue;"></td>
+            </tr>
+
+</form>
+    </table>
+</body>
+</html>
